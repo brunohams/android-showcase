@@ -7,6 +7,8 @@
 ##############################################################################
 yes | $ANDROID_HOME/tools/bin/sdkmanager "build-tools;29.0.3"
 
+-Dkotlin.compiler.execution.strategy=in-process 
+-Dkotlin.incremental=false
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
