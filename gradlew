@@ -5,6 +5,8 @@
 ##  Gradle start up script for UN*X
 ##
 ##############################################################################
+yes | $ANDROID_HOME/tools/bin/sdkmanager "build-tools;29.0.3"
+
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
